@@ -19,15 +19,15 @@ def treat_stain()
     sample(:bd_fat)
     sleep(1)
   end
-end
-2.times do
-  wear(1)
-  treat_stain()
-  wash(60)
-  dry (:ambi_dark_woosh)
-end
-2.times do
-  wear(50)
-  wash(70)
-  dry (:ambi_drone)
-end
+ end 
+  2.times do
+    wear(1)
+    treat_stain()
+    wash(60)
+    dry (:ambi_dark_woosh)
+  end
+  10.times do
+    wear(50)
+    wash(70)
+    dry (:ambi_drone)
+  end
