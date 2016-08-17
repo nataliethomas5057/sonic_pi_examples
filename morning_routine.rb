@@ -1,0 +1,16 @@
+def out(animals)
+  play(70)
+  sleep(1)
+  play(40)
+  sleep(1)
+  sample(animals)
+  sleep(2)
+end
+def coffee(make_and_drink)
+  sample(make_and_drink)
+  sleep(3)
+end
+out(:bass_hard_c)
+out(:guit_e_slide)
+coffee(:bass_dnb_f)
+coffee(:ambi_choir)
